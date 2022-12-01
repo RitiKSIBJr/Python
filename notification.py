@@ -1,8 +1,7 @@
 import time
 from plyer import notification
 
-
-if __name__ == "__main__":
+def main():
     while True:
         notification.notify(
             title = "Alert",
@@ -12,3 +11,6 @@ if __name__ == "__main__":
 
         #Stops the program for an hour(3600 seconds)
         time.sleep(3600)
+
+if __name__ == "__main__":
+    main()
